@@ -193,6 +193,6 @@ export interface Type {
     type: Species;
 }
 export interface PropCard {
-    img?:string;
-    name?:string;
+    img:string;
+    name:string;
 }
