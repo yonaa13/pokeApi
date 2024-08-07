@@ -5,9 +5,9 @@ export async function getData() {
   let data: any = [];
   results.map(async (ele: any) => {
     const respon = await fetch(ele.url);  
-    data.push(await respon.json());      
+    data.push(await respon.json());       
   });    
-  return data;  
+  return data;   
 }
 
 export async function getPokemon(id: number) {

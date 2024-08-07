@@ -20,10 +20,7 @@
   /* 2 */
 }
 
-::before,
-::after {
-  --tw-content: '';
-}
+
 
 /*
 1. Use a consistent sensible line-height in all browsers.
@@ -287,7 +284,6 @@ Correct the cursor style of increment and decrement buttons in Safari.
 */
 
 [type='search'] {
-  -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
   /* 2 */
